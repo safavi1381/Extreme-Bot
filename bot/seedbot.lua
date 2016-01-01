@@ -234,6 +234,7 @@ Admins
 @i81therock [Manager]
 
 برای خرید آموزش ساخت ربات آنتی اسپم به هر یک از دو آی دی بالا مراجعه کنید
+]]
     help_text = [[
 Commands list :
 
