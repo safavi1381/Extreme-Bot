@@ -220,133 +220,125 @@ function create_config( )
     "invite",
     "all"
     },
-    sudo_users = {110626080,103649648,0,tonumber(our_id)},--Sudo users
+    sudo_users = {122774063,106014613},--Sudo users
     disabled_channels = {},
     realm = {},--Realms Id
     moderation = {data = 'data/moderation.json'},
-    about_text = [[Teleseed v1
+    about_text = [[SBSS v1
 An advance Administration bot based on yagop/telegram-bot 
 
-https://github.com/SEEDTEAM/TeleSeed
+https://github.com/safavi1381/Extreme-Bot
 
 Admins
 @Mr_Ah_S [Developer]
 @i81therock [Manager]
 
-Special thanks to
-awkward_potato
-Siyanew
-topkecleon
-Vamptacus
-
-Our channels
-@teleseedch [English]
-]],
+برای خرید آموزش ساخت ربات آنتی اسپم به هر یک از دو آی دی بالا مراجعه کنید
     help_text = [[
 Commands list :
 
 !kick [username|id]
-You can also do it by reply
+حذف فرد حتی با ریپلای
 
 !ban [ username|id]
-You can also do it by reply
+بن کردن فرد حتی با ریپلای
 
-!unban [id]
-You can also do it by reply
+unban [id]
+آن بن کردن فرد حتی با ریپلای
 
 !who
-Members list
+لیست اعضا
 
 !modlist
-Moderators list
+لیست مدیران
 
 !promote [username]
-Promote someone
+مدیر کردن فرد
 
 !demote [username]
-Demote someone
+عزل مقام فرد
 
 !kickme
-Will kick user
+خروج از گروه
 
 !about
-Group description
+توضیح گروه
 
 !setphoto
-Set and locks group photo
+تنظیم عکس گروه
 
 !setname [name]
-Set group name
+تنظیم نام گروه
 
 !rules
-Group rules
+قوانین گروه
 
 !id
-return group id or user id
+آیدی گروه و یا آیدی فرد ریپلای شده
 
 !help
 
 !lock [member|name|bots]
-Locks [member|name|bots] 
+[قفل کردن [اعضا|اسم|ربات ها
 
 !unlock [member|name|photo|bots]
-Unlocks [member|name|photo|bots]
+[باز کردن [اعضا|اسم|عکس|ربات ها
 
-!set rules <text>
-Set <text> as rules
+!set rules <متن>
+تنظیم قوانین گروه
 
-!set about <text>
-Set <text> as about
+!set about <متن>
+تنظیم توضیح گروه
 
 !settings
-Returns group settings
+تنظیمات گروه
 
 !newlink
-create/revoke your group link
+ساخت/تازه سازی لینک گروه
 
 !link
-returns group link
+لینک گروه
 
 !owner
-returns group owner id
+آیدی صاحب گروه
 
 !setowner [id]
-Will set id as owner
+آی دی به عنوان صاحب گروه شناخته می شود
 
-!setflood [value]
-Set [value] as flood sensitivity
+!setflood [تعداد]
+محدود کردن تعداد اسپم
 
 !stats
-Simple message statistics
+آمار ساده پیام ها
 
 !save [value] <text>
-Save <text> as [value]
+سیو کردن یک متن
 
 !get [value]
-Returns text of [value]
+دریافت متن سیو شده
 
 !clean [modlist|rules|about]
-Will clear [modlist|rules|about] and set it to nil
+ [پاک کردن [مدیران|قوانین|توضیحات
 
 !res [username]
-returns user id
+دریافت آیدی کد فرد برای مثال
 "!res @username"
 
 !log
-will return group logs
+دریافت گزارشات گروه
 
 !banlist
-will return group ban list
+لیست افراد بن شده
 
-**U can use both "/" and "!" 
-
-
-*Only owner and mods can add bots in group
+شما هم میتوانید از ! و هم از / استفاده کنید
 
 
-*Only moderators and owner can use kick,ban,unban,newlink,link,setphoto,setname,lock,unlock,set rules,set about and settings commands
+فقط مدیران میتوانند در گروه ربات اد کنند
 
-*Only owner can use res,setowner,promote,demote and log commands
+
+استفاده کنند kick,ban,unban,newlink,link,setphoto,setname,lock,unlock,set rules,set about,settings فقط مدیران میتوانند از دستورات
+
+استفاده کند res,setowner,promote,demote and logفقط صاحب گروه میتواند از دستورات 
 
 ]]
 
